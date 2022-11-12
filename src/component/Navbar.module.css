@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.companylogo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.manageproperty {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.resources {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#navbarcontainer {
+  position: sticky;
+  top: 0;
+  z-index: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: pink;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbarbox {
+  display: flex;
+  gap: 40px;
+}
+
+.dynamic {
+  text-decoration: none;
+  color: red;
+}
+
+.dynamic:hover {
+  background-color: silver;
+}
+
+.homename {
+  font-weight: bold;
+}
+
+.navbarbutton {
+  display: flex;
+  gap: 15px;
+}
+
+.navbarbutton>button:nth-child(2) {
+  color: white;
+  background-color: blueviolet;
+  border: transparent;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.navbarbutton>button:nth-child(1) {
+  font-size: 18px;
+  border: transparent;
+  border-radius: 5px;
+}

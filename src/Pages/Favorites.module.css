@@ -1,0 +1,58 @@
+.favoriteheading{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+    margin-left:43%
+}
+.boximage{
+    height:90px;
+    width:300px
+}
+.priceicon{
+    display:flex;
+    align-items: center;
+    gap: 180px;
+    padding:5px 10px 0 10px;
+    
+}
+.priceicon>div:nth-child(1){
+    color:blue;
+}
+.housename{
+    font-weight: bold;
+    padding:2px 0 0 10px;
+}
+.address{
+    font-size: 14px;
+    padding:2px 0 0 10px;
+}
+.icons{
+    display:flex;
+    align-items: center;
+   font-size: 14px;
+   gap:5px;
+   padding:8px 5px 3px 10px;
+}
+.individualicons{
+    display:flex;
+    align-items: center;
+    gap:5px;
+
+}
+
+.showBox {
+  
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    margin:30px 200px 100px 200px
+
+}
+
+.showBox>div {
+    width: 300px;
+    height: 200px;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.rentupper {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 100px 0 80px;
+    align-items: center;
+}
+
+.rentupper>div:nth-child(1) {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.rentupper>div>input {
+    height: 25px;
+    width: 250px;
+}
+
+.rentmiddle {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: antiquewhite;
+    width: 70%;
+    height: 60px;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+
+.searchbutton {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: transparent;
+    border-radius: 8px;
+}
+
+.showBox {
+    /* border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    margin:30px 200px 100px 200px
+
+}
+
+.showBox>div {
+    width: 300px;
+    height: 200px;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.notFound {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reset {
+    background-color: aqua;
+    font-size: 12px;
+    border: 0;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boximage{
+    height:90px;
+    width:300px
+}
+.priceicon{
+    display:flex;
+    align-items: center;
+    gap: 180px;
+    padding:5px 10px 0 10px;
+    
+}
+.priceicon>div:nth-child(1){
+    color:blue;
+}
+.housename{
+    font-weight: bold;
+    padding:2px 0 0 10px;
+}
+.address{
+    font-size: 14px;
+    padding:2px 0 0 10px;
+}
+.icons{
+    display:flex;
+    align-items: center;
+   font-size: 14px;
+   gap:5px;
+   padding:8px 5px 3px 10px;
+}
+.individualicons{
+    display:flex;
+    align-items: center;
+    gap:5px;
+
+}
